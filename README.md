@@ -19,17 +19,17 @@ With this, the idea is that you can hook it up to anything you want. for instanc
 
 ## Bill of Materials
 
-| Qty | Code     | Description                     |
-| --- | -------- | ------------------------------- |
-| 1   | {ZL3358} | LM358 Dual Op amp IC            |
-| 1   | {ZV1624} | LM336Z precision 2.5v reference |
-| 1   | {RR0596} | 10k resistors                   |
-| 1   | {RT4650} | 10k 25turn trimpot              |
-| 1   | {RE6110} | electrolytic cap 47uf           |
-| 1   | {AB3459} | PCB buzzer                      |
-| 1   | {HP9570} | Experimenters PCB               |
-| 2   | {HM3172} | 2 way screw terminal            |
-| 1   | {ZR1100} | diode ZR1100                    |
+| Qty | Code                                     | Description                     |
+| --- | ---------------------------------------- | ------------------------------- |
+| 1   | [ZL3358](https://jaycar.com.au/p/ZL3358) | LM358 Dual Op amp IC            |
+| 1   | [ZV1624](https://jaycar.com.au/p/ZV1624) | LM336Z precision 2.5v reference |
+| 1   | [RR0596](https://jaycar.com.au/p/RR0596) | 10k resistors                   |
+| 1   | [RT4650](https://jaycar.com.au/p/RT4650) | 10k 25turn trimpot              |
+| 1   | [RE6110](https://jaycar.com.au/p/RE6110) | electrolytic cap 47uf           |
+| 1   | [AB3459](https://jaycar.com.au/p/AB3459) | PCB buzzer                      |
+| 1   | [HP9570](https://jaycar.com.au/p/HP9570) | Experimenters PCB               |
+| 2   | [HM3172](https://jaycar.com.au/p/HM3172) | 2 way screw terminal            |
+| 1   | [ZR1100](https://jaycar.com.au/p/ZR1100) | diode ZR1100                    |
 
 ## Instructions
 
@@ -39,9 +39,9 @@ For more information on how to build this kit, check out https://jaycar.com.au/l
 
 ## How to use
 
-It might be easiest to connect it to a variable power supply, we use {MP3842} in the lab, but any adjustable power supply can do ( grab an {MP3844} while they're hot.)
+It might be easiest to connect it to a variable power supply, we use [MP3842](https://jaycar.com.au/p/MP3842) in the lab, but any adjustable power supply can do ( grab an [MP3844](https://jaycar.com.au/p/MP3844) while they're hot.)
 
-The basic idea with calibrating the unit, is you want to give it a set voltage that you want to trigger at, for instance, 10V. Then adjust the {RT4650} potentiometer  until the buzzer sounds or the light turns on. Then that's it. if you put any higher voltage (ie: a full battery) it should appear "off" until the battery flattens to give the voltage that you specified.
+The basic idea with calibrating the unit, is you want to give it a set voltage that you want to trigger at, for instance, 10V. Then adjust the [RT4650](https://jaycar.com.au/p/RT4650) potentiometer  until the buzzer sounds or the light turns on. Then that's it. if you put any higher voltage (ie: a full battery) it should appear "off" until the battery flattens to give the voltage that you specified.
 
 ### Room for improvement
 
