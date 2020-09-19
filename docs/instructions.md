@@ -32,4 +32,22 @@ Now comes to the meat of it. Start with the pinout:
 
 ![pinout](images/pinout.png)
 
-{ZV1624} voltage reference is just an easy 2 wire hookup, we're going to go for the attached diagram with the two pins (center and right). Don't worry about the *ADJ* for now, because we don't need it to be a precise voltage, just a voltage reference of some point value `X` which we then compare on the positive input of op amp `A`.
+[ZV1624](https://jaycar.com.au/p/ZV1624) voltage reference is just an easy 2 wire hookup, we're going to go for the attached diagram with the two pins (center and right). Don't worry about the *ADJ* for now, because we don't need it to be a precise voltage, just a voltage reference of some point value `X` which we then compare on the positive input of op amp `A`.
+
+After a bit of experimentation we ended up a circuit that looks somewhat like this on paper:
+
+![](images/parts-circuit.png)
+
+We've colour coded the 
+
+And it looks like this on the [HP9570](https://jaycar.com.au/p/HP9570) PCB:
+
+![in board circuit](images/board-circuit.jpg)
+
+The diagram on paper above wasn't quite able to match what we had on the PCB due to the size, and the PCB had some benefits such as the power rails coming down under the PCB which tided up a bit of the wiring. 
+
+
+
+The only other thing is attaching the buzzer to it and trying it out. We have a [MP3842](https://jaycar.com.au/p/MP3842) power supply that we're able to adjust the voltage on and see how it works. 
+
+The build from this point is nothing other than to put the parts together, if you want to see some step by step photos, we've got a bunch of photos in the project folder which you can download from the top of this page.
