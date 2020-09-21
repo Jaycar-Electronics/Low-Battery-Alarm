@@ -3,6 +3,8 @@
 
  <github> View this project how it was meant to be displayed at https://jaycar.com.au/low-battery-alarm </github>
 
+![hero image](hero.jpg)
+
 Perfect for 12 - 24V boating applications! Use this adjustable low voltage alarm for your next time out and about to make sure you're never stuck with low power again. Uses a 2.5v reference with the 358 Dual op-amp to compare the battery voltage and to oscillate a small buzzer on the board if it gets too low. Wire in a small LED indicator light so you can see it on your dash
 
 You will need some spare wire to connect to battery and LED.

@@ -36,7 +36,7 @@ Now comes to the meat of it. Start with the pinout:
 
 After a bit of experimentation we ended up a circuit that looks somewhat like this on paper:
 
-![](images/parts-circuit.png)
+![circuit](images/parts-circuit.png)
 
 We've colour coded the 
 
